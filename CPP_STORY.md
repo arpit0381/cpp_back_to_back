@@ -46,7 +46,7 @@ In 1985, the language was officially renamed **C++**, using the C increment oper
 **May 1985** marked the release of the first version of C++. This wasn't standardized yet—it was Stroustrup's personal implementation. The language gained attention because:
 - It preserved C's performance and efficiency
 - It added powerful OOP features
-- It was relatively easy to learn for C programmers
+- It was relatively easy to learn for C programmers//////
 - Compiler technology was becoming sophisticated enough to handle it
 
 ### Early Adoption
