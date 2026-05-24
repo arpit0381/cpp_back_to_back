@@ -67,7 +67,7 @@ The language started to build momentum in the developer community.
 Throughout the late 1980s and 1990s, C++ underwent significant evolution:
 
 **C++2.0 (1989)**
-- Virtual base classes
+- Virtual base classes/////
 - Static and const member functions
 - Improved memory management
 - The `protected` access specifier
