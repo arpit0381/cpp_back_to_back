@@ -1,9 +1,12 @@
 #include "../include/FileHandler.h"
 #include <iostream>
 #include <fstream>
-#include <filesystem>
-
-namespace fs = std::filesystem;
+#include <sys/stat.h>
+#ifdef _WIN32
+    #include <direct.h>
+#else
+    #include <sys/types.h>
+#endif
 
 FileHandler::FileHandler() : dataDirectory("./data") {}
 
@@ -11,8 +14,13 @@ FileHandler::FileHandler(const std::string& directory) : dataDirectory(directory
 
 bool FileHandler::ensureDirectoryExists() {
     try {
-        if (!fs::exists(dataDirectory)) {
-            fs::create_directories(dataDirectory);
+        struct stat st;
+        if (stat(dataDirectory.c_str(), &st) == -1) {
+            #ifdef _WIN32
+                mkdir(dataDirectory.c_str());
+            #else
+                mkdir(dataDirectory.c_str(), 0700);
+            #endif
         }
         return true;
     } catch (const std::exception& e) {
@@ -176,7 +184,7 @@ bool FileHandler::generateBookingReport(const std::vector<Booking>& bookings,
         file << "Booking ID: " << booking.getBookingId() << std::endl;
         file << "Customer ID: " << booking.getCustomerId() << std::endl;
         file << "Total Amount: " << booking.getTotalAmount() << std::endl;
-        file << "Status: " << booking.getStatus() << std::endl;
+        file << "Status: " << booking.getStatusString() << std::endl;
         file << "---" << std::endl;
     }
     
