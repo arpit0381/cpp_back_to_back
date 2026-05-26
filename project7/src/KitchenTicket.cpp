@@ -2,6 +2,7 @@
 #include <iostream>
 #include <iomanip>
 #include <ctime>
+//Start of the program.
 
 KitchenTicket::KitchenTicket() : ticketId(""), orderId(""), tableNumber(0),
                                  status(TicketStatus::RECEIVED), receivedTime(0),
@@ -73,3 +74,5 @@ void KitchenTicket::displayTicket() const {
     }
     std::cout << std::string(50, '-') << "\n" << std::endl;
 }
+//end of the code 
+
