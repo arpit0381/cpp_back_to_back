@@ -2,6 +2,7 @@
 #include <iostream>
 #include <iomanip>
 #include <ctime>
+//Start of the program.
 
 KitchenTicket::KitchenTicket() : ticketId(""), orderId(""), tableNumber(0),
                                  status(TicketStatus::RECEIVED), receivedTime(0),
