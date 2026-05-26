@@ -111,7 +111,7 @@ As C++ grew in popularity, issues emerged:
 In **1998**, the first international standard for C++ was approved by ISO (International Organization for Standardization). This was called **C++98** or **C++/03** (updated in 2003).
 /////
 ///
-### Key Features of C++98
+### Key Features of C++98///////
 
 - **Templates**: Fully specified and standardized
 - **STL**: The Standard Template Library was officially part of the standard
