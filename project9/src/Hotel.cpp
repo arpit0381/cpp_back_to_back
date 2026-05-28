@@ -1,4 +1,4 @@
-#include "Hotel.h"
+7#include "Hotel.h"
 #include <iostream>
 #include <algorithm>
 
@@ -244,3 +244,4 @@ void Hotel::displayHotelInfo() const {
               << "Total Rooms: " << rooms.size() << "\n"
               << "Registered Guests: " << guests.size() << "\n";
 }
+// end of line 
