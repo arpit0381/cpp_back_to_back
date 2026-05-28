@@ -1,6 +1,7 @@
 #include "../include/Ticket.h"
 #include <iostream>
 #include <ctime>
+//start of the code 
 
 Ticket::Ticket() : ticketId(""), customerId(""), showtimeId(""),
                    seatRow(0), seatColumn(0), price(0.0),
