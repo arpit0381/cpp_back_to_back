@@ -1,6 +1,7 @@
 #include "../include/Seat.h"
 #include <iostream>
 #include <sstream>
+//start of the code 
 
 Seat::Seat() : row(0), column(0), status(SeatStatus::AVAILABLE), price(150.0), seatNumber("") {
     generateSeatNumber();
