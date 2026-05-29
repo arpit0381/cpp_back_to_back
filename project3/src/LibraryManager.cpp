@@ -1,9 +1,7 @@
 #include "LibraryManager.h"
 #include <iostream>
 #include <algorithm>
-//hehe start
-//hehe
-//
+//just a 
 
 LibraryManager::LibraryManager() : nextMemberId(1001) {}
 
