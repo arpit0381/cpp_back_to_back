@@ -6,8 +6,8 @@ void displayMenu() {
               << "1. Register Guest\n"
               << "2. View All Guests\n"
               << "3. Add Room\n"
-              << "4. View All Rooms\n"
-              << "5. Create Booking\n"
+              << "4. View All Rooms\n"//
+              << "5. Create Booking\n"//
               << "6. View All Bookings\n"
               << "7. Process Payment\n"
               << "8. View All Payments\n"
