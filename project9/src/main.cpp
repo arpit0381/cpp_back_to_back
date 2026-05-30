@@ -1,23 +1,4 @@
-#include "Hotel.h"
-#include <iostream>
 
-void displayMenu() {
-    std::cout << "\n========== LUXURY HOTEL MANAGEMENT SYSTEM ==========\n"
-              << "1. Register Guest\n"
-              << "2. View All Guests\n"
-              << "3. Add Room\n"
-              << "4. View All Rooms\n"
-              << "5. Create Booking\n"
-              << "6. View All Bookings\n"
-              << "7. Process Payment\n"
-              << "8. View All Payments\n"
-              << "9. Add Review\n"
-              << "10. View All Reviews\n"
-              << "11. Display Hotel Info\n"
-              << "12. Display Analytics\n"
-              << "0. Exit\n"
-              << "Enter your choice: ";
-}
 
 int main() {
     Hotel hotel("Luxury Plaza", "Downtown City");
