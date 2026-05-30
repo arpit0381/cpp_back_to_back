@@ -2,7 +2,7 @@
 #include <iostream>
 #include <algorithm>
 //......
-
+//.......
 
 Hotel::Hotel(const std::string& name, const std::string& location)
     : hotelName(name), location(location), nextGuestId(1001), nextBookingId(1), 
