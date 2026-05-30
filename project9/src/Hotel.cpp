@@ -245,4 +245,4 @@ void Hotel::displayHotelInfo() const {
               << "Registered Guests: " << guests.size() << "\n";
 }
 
-//hhehhhhh....
+
