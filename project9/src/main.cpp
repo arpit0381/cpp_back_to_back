@@ -10,7 +10,7 @@ void displayMenu() {
               << "5. Create Booking\n"//
               << "6. View All Bookings\n"
               << "7. Process Payment\n"
-              << "8. View All Payments\n"
+              << "8. View All Payments\n"//
               << "9. Add Review\n"
               << "10. View All Reviews\n"
               << "11. Display Hotel Info\n"
