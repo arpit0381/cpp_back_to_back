@@ -1,6 +1,5 @@
 #include "Hotel.h"
 #include <iostream>
-//.......
 
 void displayMenu() {
     std::cout << "\n========== LUXURY HOTEL MANAGEMENT SYSTEM ==========\n"
