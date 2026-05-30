@@ -32,7 +32,7 @@ int main() {
     hotel.addRoom(302, RoomType::DELUXE, 299.99, 6);
     
     std::cout << "Welcome to Luxury Hotel Management System!\n";
-    hotel.displayHotelInfo();
+    hotel.displayHotelInfo();//.....
     
     while (true) {
         displayMenu();
