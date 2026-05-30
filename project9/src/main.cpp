@@ -14,9 +14,9 @@ void displayMenu() {
               << "9. Add Review\n"
               << "10. View All Reviews\n"
               << "11. Display Hotel Info\n"
-              << "12. Display Analytics\n"
+              << "12. Display Analytics\n"//
               << "0. Exit\n"
-              << "Enter your choice: ";
+              << "Enter your choice: ";//
 }
 
 int main() {
