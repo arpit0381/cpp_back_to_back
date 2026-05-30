@@ -1,7 +1,4 @@
-#include "Hotel.h"
-#include <iostream>
-#include <algorithm>
-//......
+
 
 
 Hotel::Hotel(const std::string& name, const std::string& location)
