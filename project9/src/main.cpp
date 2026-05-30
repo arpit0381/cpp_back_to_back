@@ -49,7 +49,7 @@ int main() {
                 std::cout << "Enter phone number: ";
                 std::getline(std::cin, phone);
                 std::cout << "Enter address: ";
-                std::getline(std::cin, address);
+                std::getline(std::cin, address:);
                 hotel.registerGuest(name, email, phone, address);
                 break;
             }
