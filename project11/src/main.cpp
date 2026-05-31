@@ -1,7 +1,7 @@
 #include "CourseManager.h"
 #include <iostream>
 #include <iomanip>
-
+// heheh
 void displayMenu() {
     std::cout << "\n========== University Course Manager ==========" << std::endl;
     std::cout << "--- COURSE MANAGEMENT ---" << std::endl;
@@ -17,7 +17,7 @@ void displayMenu() {
     std::cout << "8. Display All Instructors" << std::endl;
     std::cout << "9. Remove Instructor" << std::endl;
     std::cout << "\n--- ENROLLMENT ---" << std::endl;
-    std::cout << "10. Enroll Student in Course" << std::endl;
+    std::cout << "10. Enroll Student in Course" << std::endl;//heheh
     std::cout << "11. Remove Student from Course" << std::endl;
     std::cout << "12. Assign Instructor to Course" << std::endl;
     std::cout << "\n--- GRADES ---" << std::endl;
