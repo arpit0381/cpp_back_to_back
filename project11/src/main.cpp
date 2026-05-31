@@ -210,7 +210,7 @@ int main() {
                 std::cin >> studentId;
                 std::cin.ignore();
                 std::cout << "Enter Course Code: ";
-                std::getline(std::cin, courseCode);
+                std::getline(std::cin, courseCode);//"""
                 
                 if (manager.removeStudentFromCourse(studentId, courseCode)) {
                     std::cout << "Student removed from course!" << std::endl;
