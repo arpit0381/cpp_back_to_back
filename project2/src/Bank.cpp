@@ -9,7 +9,7 @@ Bank::Bank(const std::string& name) : bankName(name) {}
 
 std::shared_ptr<Account> Bank::findAccount(const std::string& accountNumber) {
     auto it = std::find_if(accounts.begin(), accounts.end(),
-        [accountNumber](const std::shared_ptr<Account>& acc) {
+        [accountNumber](const std::shared_ptr<Account>& acc) {//....
             return acc->getAccountNumber() == accountNumber;
         });
     return (it != accounts.end()) ? *it : nullptr;
