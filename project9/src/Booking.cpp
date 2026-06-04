@@ -4,7 +4,7 @@
 //.........?.....#........
 Booking::Booking() : bookingId(0), guestId(0), roomNumber(0), 
                      checkInDate(""), checkOutDate(""), numberOfNights(0), 
-                     totalCost(0), isActive(true) {}
+                     totalCost(0), isActive(true) {}//........
 
 Booking::Booking(int id, int guestId, int roomNumber, 
                  const std::string& checkIn, const std::string& checkOut, double cost)
