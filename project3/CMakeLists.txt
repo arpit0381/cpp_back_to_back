@@ -12,6 +12,6 @@ add_executable(library_system
     src/Member.cpp
     src/LibraryManager.cpp
 )
-//
+.............
 target_include_directories(library_system PRIVATE ${PROJECT_SOURCE_DIR}/include)
 
