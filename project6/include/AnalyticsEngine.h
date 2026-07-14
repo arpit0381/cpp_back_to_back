@@ -7,7 +7,7 @@
 #include "Booking.h"
 #include "Showtime.h"
 
-struct BookingAnalytics {
+struct BookingAnalytics { // structure of the class
     int totalBookings = 0;
     double totalRevenue = 0.0;
     double averageBookingValue = 0.0;
@@ -15,8 +15,8 @@ struct BookingAnalytics {
     double cancellationRate = 0.0;
 };
 
-struct ShowtimeAnalytics {
-    std::string showtimeId;
+struct ShowtimeAnalytics { // structure of the class
+    std::string showtimeId; // object of the class
     int occupancyPercentage = 0;
     double revenue = 0.0;
     int ticketsSold = 0;
