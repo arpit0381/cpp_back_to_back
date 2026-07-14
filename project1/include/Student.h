@@ -1,11 +1,11 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 
-#include <string>
+#include <string> //Header file
 #include <vector>
 
-class Student {
-private:
+class Student { // calling class 
+private: // class is private
     int id;
     std::string name;
     std::string email;
