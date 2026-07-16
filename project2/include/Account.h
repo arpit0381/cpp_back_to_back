@@ -16,7 +16,7 @@ protected:
     bool isActive;
     std::string accountType;
     
-    // Helper methods....that helps.....
+    // Helper methods
     std::string generateAccountNumber();
     bool verifyPin(int inputPin) const;
 
