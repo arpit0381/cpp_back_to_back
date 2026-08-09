@@ -1,7 +1,6 @@
 #include "Category.h"
 #include <iostream>
 #include <algorithm>
-//hhhheeejgguiuiuiuuugjhj
 
 Category::Category(const std::string& id, const std::string& name, 
                    const std::string& description)
