@@ -1,6 +1,6 @@
 #include "Inventory.h"
 #include <iostream>
-//.....l...............///.............////
+//////.....
 Inventory::Inventory(int id, int quantity, int reorderLevel, int reorderQuantity)
     : productId(id), quantityOnHand(quantity), 
       reorderLevel(reorderLevel), reorderQuantity(reorderQuantity) {}
