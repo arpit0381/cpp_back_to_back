@@ -9,7 +9,7 @@ private:
     std::string categoryId;
     std::string categoryName;
     std::string description;
-    std::vector<int> productIds;
+    std::vector<int> productIds;//
 
 public:
     Category(const std::string& id, const std::string& name, 
