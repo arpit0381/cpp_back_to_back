@@ -13,7 +13,7 @@ private:
 
 public:
     Category(const std::string& id, const std::string& name, 
-             const std::string& description);
+             const std::string& description);//
     
     // Getters
     std::string getCategoryId() const;
