@@ -1,5 +1,8 @@
 #include "Guest.h"
-#include <iostream>
+#include <iostream>////
+////
+...../////
+
 
 Guest::Guest() : guestId(0), name(""), email(""), phoneNumber(""), address(""), totalStays(0) {}
 
